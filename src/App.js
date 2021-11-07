@@ -13,6 +13,7 @@ function App() {
           <Route path="/about" exact component={() => <About />} />
         </Switch>
         {/* <Footer /> */}
+        {/* style={{flexGrow: "1"}} */}
       </Router>
     </div>
   );
