@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Navigation, Footer, Home, About, Check } from "./components";
 function App() {
   return (
-    <div className="App">
+    <div className="App d-flex p-2 flex-column align-self-center justify-content-center">
       <Router>
         <Navigation />
         <Switch>
